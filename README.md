@@ -41,10 +41,8 @@ Unzip it so that `train.csv` and `test.csv` sit in the same folder as the notebo
 
 | File | Description |
 |---|---|
-| `News_Article_Topic_Classifier.ipynb` | Main deliverable — the full, executed Jupyter notebook (theory, EDA, preprocessing, TF-IDF, model training/evaluation/comparison, error analysis, tuning, and a live prediction function). |
+| `activity1.ipynb` | Main deliverable — the full, executed Jupyter notebook (theory, EDA, preprocessing, TF-IDF, model training/evaluation/comparison, error analysis, tuning, and a live prediction function). |
 | `News_Article_Topic_Classifier_Report.docx` | Full 21-section written academic report (Title → References), matching the notebook's structure and results. |
-| `News_Article_Topic_Classifier_Proposal_Report.docx` | Shorter 5-section project proposal report (Title/Objective, Problem Statement, Literature Context, Dataset Details, Methodology). |
-| `News_Article_Topic_Classifier.zip` | Overleaf/LaTeX version of the full report — `main.tex` + figures, ready to compile to PDF. |
 | `News_Article_Topic_Classifier_main.tex` / `_compiled.pdf` | Standalone copies of the LaTeX source and its compiled PDF. |
 | `best_model_logreg.joblib` | The trained, tuned Logistic Regression model (the best-performing classifier). |
 | `tfidf_vectorizer.joblib` | The fitted TF-IDF vectorizer used to featurize text — required alongside the model for inference. |
@@ -70,7 +68,7 @@ Unzip it so that `train.csv` and `test.csv` sit in the same folder as the notebo
 
 4. **Run all cells** top to bottom:
    ```bash
-   jupyter notebook News_Article_Topic_Classifier.ipynb
+   jupyter notebook activity1.ipynb
    ```
    or, to execute non-interactively end-to-end:
    ```bash
